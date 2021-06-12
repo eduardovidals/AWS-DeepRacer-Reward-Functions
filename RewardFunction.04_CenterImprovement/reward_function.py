@@ -14,7 +14,7 @@ def reward_function(params):
         # initially encourage to stay in the center
         if steps < 15:
             reward = (1 - (distance_from_center / (track_width / 2)) ** 4) * speed ** 2
-        # after 20 steps reward the car based on track completion and speed
+        # after 15 steps reward the car based on track completion and speed
         if steps >= 15:
             reward = ((progress * speed ** 2) / steps) * 2
     else:
