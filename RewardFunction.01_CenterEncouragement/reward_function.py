@@ -30,6 +30,6 @@ def reward_function(params):
 
     # Penalize reward if the car is steering too much
     if steering > ABS_STEERING_THRESHOLD:
-        reward *= 0.8
+        reward *= 0.6
 
     return float(reward)
