@@ -22,12 +22,12 @@ def reward_function(params):
         reward = 0.001
 
     # encourage to speed up in straightaways
-    if all_wheels_on_track and abs(steering_angle) < 10 and speed == 2.5:
+    if all_wheels_on_track and abs(steering_angle) < 10 and speed == 3:
         reward += (speed ** 2 / 4) + (progress/steps) ** 2
     else:
         reward += 0.001
 
-    if is_offtrack:
-        reward *= 0.5
+    if not all_wheels_on_track:
+        reward *= 0.3
 
     return float(reward)
