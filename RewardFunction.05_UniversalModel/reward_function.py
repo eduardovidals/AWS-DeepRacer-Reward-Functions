@@ -1,6 +1,3 @@
-import math
-
-
 def reward_function(params):
     """
     Example of a reward function that is universal for all tracks. Self motivation

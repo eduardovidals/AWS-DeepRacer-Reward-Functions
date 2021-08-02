@@ -30,6 +30,8 @@ def reward_function(params):
     speed = params['speed']
     reward = 0.001
 
+    # use arrays for waypoints training
+    # needs major fixing, try fixing to not use negative numbers
     if all_wheels_on_track:
         if nextwaypoint in centerleft:
             if (distance_from_center / params['track_width']) <= 0.25 and (is_left_of_center):
