@@ -1,5 +1,5 @@
 # AWS DeepRacer Reward Funtions
-Reward Functions for AWS Deepracer. 
+Reward Functions for AWS DeepRacer. 
 
 | Mode⠀            |  Reward Function       | Code |
 | :---             | :---                   | :---:
