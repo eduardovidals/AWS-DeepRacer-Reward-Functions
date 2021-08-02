@@ -12,6 +12,7 @@ Reward Functions for AWS Deepracer.
 
 # Log Analysis
 Log Analysis for AWS DeepRacer. 
+
 **Race Line Calculation** produces a .py that is used for **Optimized Waypoints**.
 | Mode⠀            |  Reward Function       | Code |
 | :---             | :---                   | :---:
