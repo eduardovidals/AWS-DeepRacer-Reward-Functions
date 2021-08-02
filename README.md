@@ -13,7 +13,7 @@ Reward Functions for AWS DeepRacer.
 # Log Analysis
 Log Analysis for AWS DeepRacer. 
 
-**Race Line Calculation** produces a .py that is used for **Optimized Waypoints**.
+**Race Line Calculation** produces a .py file that is used for **Optimized Waypoints**.
 | Analysis               | Description                    | Code |
 | :---                   | :---                           | :--:
 | Center Encouragement   | Analysis Notebook              |[Code](https://colab.research.google.com/drive/15qwuy2shvXHgFD5kNBn1VkgHQRgUoMvU?usp=sharing)
