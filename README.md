@@ -22,4 +22,3 @@ Log Analysis for AWS DeepRacer.
 | Collision Avoidance    | Analysis Notebook              |[Code](https://colab.research.google.com/drive/1yY6stPRVdt9iJ6CAnh0Mquffa3733ynG?usp=sharing)
 | Race Line Calculation  | Race Line Calculation Notebook |[Code](https://colab.research.google.com/drive/188JIrI5GS2X5jVRAMEnDsYao-6NFjziV?usp=sharing)
 | Optimized Waypoints    | Optimized Waypoints Notebook   |[Code](https://colab.research.google.com/drive/1eFn1vWDhHr7BLUQ5big5CujIaJ87LlhR?usp=sharing)
-
